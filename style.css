@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(245, 245, 245);
+    margin: 0;
+}
+.aviso-header{
+    background: #80D44C;
+}
+.lista-header{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 0px;
+}
+.nav-imag{
+    padding-top: 0.4rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.form-control{
+    font-size: 13px;
+}
+.trustpilot{
+    width: 70px;
+    height: 48px;
+}
+.boton{
+    border:2px solid black;
+    background-color: #80D44C;
+    text-decoration: none;
+    color: white;
+    padding: .6% 4.5%;
+    border-radius: 19px;
+    font-family: "League Gothic", sans-serif;
+    font-size: 1.2rem;
+}
+h1{
+    font-family: "League Gothic", sans-serif;
+    font-size: 7em;
+    line-height: 1;
+}
+@media(max-width:468px){
+    h1{
+        font-size: 4.5em;
+    }
+}
+h2{
+    font-family: "League Gothic", sans-serif;
+    font-size: 5em;
+    text-align: center;
+    margin-top: .5em;
+}
+@media(max-width:468px){
+    h2{
+        font-size: 4em;
+    }
+}
+h3{
+    font-family: "League Gothic", sans-serif;
+    font-size: 5em;
+    text-align: center;
+    line-height: 1;
+}
+@media(max-width:468px){
+    h3{
+        font-size: 2.5em;
+    }
+}
+.subtitle{
+    font-size: 1.25em;
+    margin: 20px;
+    padding-bottom: 10px;
+}
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: url(../Segunda/Imagenes/headerimagen.jpeg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.pregunta{
+    background-color: #80D44C;
+    padding: 6em;
+    margin-top: 4em;
+}
+
+.gato{
+    max-width: 300px;
+    margin-top: -3.2rem;
+}
+
+.first{
+    margin-top: 5em;
+}
+.textdog{
+    text-align: center;
+
+}
+.title{
+    margin-top: .3em;
+}
+.perrito-al{
+    width: 30em;   
+}
+#hero1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 70vh;
+    background-image: url(../Segunda/Imagenes/catimage.jpeg);
+    color: white;
+    margin-top: 4em;
+}
+.col-md-3{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+#hero2{
+    margin:0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 60vh;
+    background-image: url(../Segunda/Imagenes/callme.gif);
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
+#hero3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: url(../Segunda/Imagenes/nosotrosimage.jpeg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.us{
+    text-align: center;
+}
+.hey{
+    margin-top: 3em;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-bottom: 5em;
+}
+.pr{
+    display: flex;
+    width: 300px;
+}
+.preguntas-frecuentes li{
+    list-style: none;
+    font-weight: 700;
+    font-size: 1.3em;
+}
+.comida{
+    width: 20em;
+}
+.comprar{
+    border:2px solid black;
+    text-decoration: none;
+    color: black;
+    padding: .6% 4.5%;
+    border-radius: 19px;
+    font-family: "League Gothic", sans-serif;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+.full{
+    margin-top: 3em;
+}
+footer{
+    background-color: black;
+    color: white;
+}
